@@ -13,7 +13,7 @@ class CalculadoraTest {
 
 	@Test
 	void test() {
-		Aplicacao resultado = Calculadora.rendimento(0);
+		Aplicacao resultado = Calculadora.rendimento(1000);
 		
 		assertEquals(resultado.getDia(), 0f);
 		assertEquals(resultado.getAliquota(), 0f);
